@@ -1,0 +1,142 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.todo-components {
+  width: 50%;
+  margin: 10rem auto 0 auto;
+}
+.todo-items {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+.todo-components h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: serif;
+  color: #0e4ff4;
+  margin-bottom: 1.6rem;
+}
+.add-menu {
+  display: flex;
+  gap: 1rem;
+}
+.add-menu input {
+  width: 100%;
+  height: 3rem;
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  background-color: #d1d3ec;
+  color: #595353;
+}
+.add-menu .add-button {
+  background-color: #7d7e91;
+  border: none;
+  color: #ffffff;
+  width: 40%;
+  font-size: 1rem;
+}
+.add-menu .add-button:hover {
+  color: #30336b;
+}
+
+.deleted-edit-menu {
+  width: 100%;
+  height: 3rem;
+  background: #525477;
+  justify-content: space-between;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+  border-radius: 0.6rem;
+}
+.deleted-edit-menu .list {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.deleted-edit {
+  display: flex;
+  align-items: center;
+}
+.deleted-edit .deleted {
+  color: #fff;
+  transition: linear 0.4s;
+}
+.deleted-edit .deleted:hover {
+  color: #eb2f06;
+}
+
+.deleted-edit .edit {
+  color: #fff;
+  transition: linear 0.4s;
+}
+.deleted-edit .edit:hover {
+  color: #44bd32;
+}
+.remove-all {
+  text-align: center;
+}
+
+/* REMOVE_ALL_BUTTON */
+.remove-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.remove-btn .remove-all {
+  background-color: #4c79ea;
+  color: #fff;
+  transition: linear 0.4s;
+  padding: 0.7rem 3rem;
+  border-radius: 0.5rem;
+}
+.remove-btn .remove-all:hover {
+  color: #fff;
+  background-color: #6c94f8;
+}
+
+/* 
+@responsive */
+
+@media (max-width: 850px) {
+  .todo-components {
+    width: 70%;
+    margin: 10rem auto 0 auto;
+  }
+  .todo-components h1 {
+    font-size: 2.5rem;
+  }
+  .add-menu .add-button {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+  .deleted-edit-menu .list {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-components {
+    width: 90%;
+    margin: 10rem auto 0 auto;
+  }
+  .todo-components h1 {
+    font-size: 2rem;
+  }
+  .add-menu .add-button {
+    width: 50%;
+    font-size: 0.7rem;
+  }
+  .deleted-edit-menu .list {
+    font-size: 0.9rem;
+  }
+}

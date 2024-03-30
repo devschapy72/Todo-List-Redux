@@ -72,7 +72,6 @@ const AddList = () => {
                 aria-label="delete"
                 className="edit"
                 onClick={() => {
-                  // dispatch(editTodo(items.id));
                   setSelectedId(items.id);
                 }}
               >

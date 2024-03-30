@@ -8,7 +8,6 @@ const ReducersTodo = (state = initialState, action) => {
     case "ADD_TODO":
       const { id, data } = action.payload;
       return {
-        // ...state,
         list: [
           ...state.list,
           {
@@ -27,7 +26,6 @@ const ReducersTodo = (state = initialState, action) => {
       );
 
       return {
-        // ...state,
         list: [
           ...updatedList,
           {
@@ -42,13 +40,11 @@ const ReducersTodo = (state = initialState, action) => {
         (items) => items.id !== action.id
       );
       return {
-        // ...state,
         list: filteringList,
       };
 
     case "REMOVE_ALL_TODO":
       return {
-        // ...state,
         list: [],
       };
 

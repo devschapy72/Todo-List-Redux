@@ -1,8 +1,27 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Todo App
 
-Currently, two official plugins are available:
+This is a simple todo application built with React and Redux, designed to help you manage your tasks efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Add items: Easily add new tasks to your todo list.
+- Delete items: Remove tasks you no longer need.
+- Edit items: Update the content of existing tasks.
+- Remove all items: Clear your entire todo list in one go.
+
+## Technologies Used
+
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Redux](https://redux.js.org/) - A predictable state container for JavaScript apps.
+- [Vite](https://vitejs.dev/) - A fast development server and build tool for modern web development.
+- [Emotion](https://emotion.sh/) - A library for writing CSS styles with JavaScript.
+- [Material-UI](https://mui.com/) - A popular React UI framework implementing Google's Material Design.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>

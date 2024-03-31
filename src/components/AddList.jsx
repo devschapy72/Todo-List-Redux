@@ -20,7 +20,6 @@ const AddList = () => {
 
   useEffect(() => {
     const findItem = list.find((item) => item.id === selectedId);
-    console.log(findItem);
     if (findItem === undefined) return;
     setInputValue(findItem.data);
   }, [selectedId]);
@@ -58,7 +57,7 @@ const AddList = () => {
                 setInputValue("");
               }}
             >
-              Add Todo
+              Add
             </Button>
           )}
         </div>
